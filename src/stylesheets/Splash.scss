@@ -1,0 +1,124 @@
+.display {
+	position: relative;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+	width: calc(100vw - 90px);
+	height: calc(100vh - 90px);
+	background-color: transparent;
+	z-index: 10;
+
+	&__left,
+	&__right {
+		// flex: 1 1 300px;
+		// border: 2px solid green;
+		min-width: 30%;
+		// background-color: yellow;
+	}
+
+	&__left {
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+		// align-items: flex-end;
+
+		// background-color: teal;
+	}
+
+	&__list {
+		list-style: none;
+		transform: rotate(90deg);
+		text-align: center;
+		width: 100vh;
+		margin-left: 50px;
+		// display: flex;
+		// flex-flow: column nowrap;
+		// justify-content: center;
+		// align-items: center;
+		// padding: 0;
+		// margin: auto 0;
+	}
+
+	&__name {
+		font-size: 30px;
+		white-space: nowrap;
+		color: rgb(255, 255, 240);
+		// background-color: yellow;
+		// transform: translate(250px, calc(50vh - 45px));
+		// z-index: 110;
+		transition: all .5s;
+
+		&:hover {
+			color: tomato;
+			cursor: pointer;
+		}
+	}	
+
+	&__title {
+		font-size: 20px;
+		white-space: nowrap;
+		color: rgb(255, 255, 240);
+		// background-color: yellow;
+		// transform: translate(250px, calc(50vh - 45px));
+		// z-index: 110;
+		transition: all .5s;
+
+		&:hover {
+			color: tomato;
+			cursor: pointer;
+		}
+	}
+
+	&__item {
+		font-size: 60px;
+		line-height: 60px;
+		// color: papapawhip;
+		// border: 1px solid red;
+		// background-color: teal;
+		display: inline-block;
+		
+
+		a {
+			text-decoration: none;
+			color: white;
+			transition: all .5s;
+			// background-color: red;
+
+			&:hover {
+				color: chartreuse;
+				cursor: pointer;
+			}
+		}
+
+	}
+
+	&__projects {
+		transform: translate(5vw, 0);
+	}
+
+	&__cv {
+		transform: scale(-1) translateY(-5px);
+		// transform-origin: center center;
+		// transform: rotate(180deg);
+	}
+
+	&__contact {
+		transform: translate(-5vw, 0);
+	}
+
+}
+
+.sargent {
+	position: absolute;
+	width: 75vw;
+	top: 50%;
+	left: 50%;
+	margin-top: -22px;
+	// margin-left: calc(-50% - 35vw);
+	// margin-left: -38%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	box-shadow: 8px 8px 45px 5px rgb(50,50,50);
+}
+

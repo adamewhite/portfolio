@@ -1,0 +1,65 @@
+.display {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: calc(100vw - 90px);
+  height: calc(100vh - 90px);
+  background-color: transparent;
+  z-index: 10; }
+  .display__left, .display__right {
+    min-width: 30%; }
+  .display__left {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center; }
+  .display__list {
+    list-style: none;
+    transform: rotate(90deg);
+    text-align: center;
+    width: 100vh;
+    margin-left: 50px; }
+  .display__name {
+    font-size: 30px;
+    white-space: nowrap;
+    color: ivory;
+    transition: all .5s; }
+    .display__name:hover {
+      color: tomato;
+      cursor: pointer; }
+  .display__title {
+    font-size: 20px;
+    white-space: nowrap;
+    color: ivory;
+    transition: all .5s; }
+    .display__title:hover {
+      color: tomato;
+      cursor: pointer; }
+  .display__item {
+    font-size: 60px;
+    line-height: 60px;
+    display: inline-block; }
+    .display__item a {
+      text-decoration: none;
+      color: white;
+      transition: all .5s; }
+      .display__item a:hover {
+        color: chartreuse;
+        cursor: pointer; }
+  .display__projects {
+    transform: translate(5vw, 0); }
+  .display__cv {
+    transform: scale(-1) translateY(-5px); }
+  .display__contact {
+    transform: translate(-5vw, 0); }
+
+.sargent {
+  position: absolute;
+  width: 75vw;
+  top: 50%;
+  left: 50%;
+  margin-top: -22px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  box-shadow: 8px 8px 45px 5px #323232; }

@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px; }
+
+.banner__name {
+  font-size: 30px; }
+  .banner__name a {
+    text-decoration: none;
+    color: #f5f3f7;
+    transition: all .3s; }
+    .banner__name a:hover {
+      color: tomato; }
+
+.banner__title {
+  font-size: 20px; }
+  .banner__title a {
+    text-decoration: none;
+    color: #f5f3f7;
+    transition: all .3s; }
+    .banner__title a:hover {
+      color: tomato; }
+
+.subbanner__list {
+  list-style: none; }
+  .subbanner__list--item {
+    display: inline;
+    font-size: 20px;
+    font-family: 'GT-America-Italic';
+    margin-left: 15px;
+    padding-bottom: 5px; }
+    .subbanner__list--item a {
+      text-decoration: none;
+      list-style: none;
+      letter-spacing: .5px;
+      color: #f5f3f7;
+      border-bottom: 5px solid transparent;
+      transition: all .5s; }
+      .subbanner__list--item a:hover {
+        border-bottom: 5px solid #fec000; }

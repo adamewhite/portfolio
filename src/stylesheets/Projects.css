@@ -1,0 +1,41 @@
+.projects {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around; }
+  .projects__section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 30%;
+    max-width: 30%;
+    margin-top: 30px; }
+  .projects__image-container {
+    display: flex;
+    flex: 1 1 50%;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    padding: 0 5px;
+    background: url("../assets/images/wavy.jpg") left bottom;
+    box-shadow: 5px 5px 18px 3px #3c3c3c;
+    transition: all .3s; }
+    .projects__image-container:hover {
+      box-shadow: 6px 6px 19px 3px #373737; }
+    .projects__image-container:active {
+      box-shadow: 3px 3px 12px 3px #323232; }
+  .projects__image {
+    max-width: 100%; }
+  .projects__description-container {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1 1 50%;
+    justify-content: flex-start;
+    margin-top: 40px; }
+  .projects__description {
+    font-size: 23px;
+    line-height: 28px;
+    padding: 0 5px;
+    font-family: 'GT-America-Thin', sans-serif;
+    color: white; }

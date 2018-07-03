@@ -1,0 +1,44 @@
+.cv-holder {
+  display: flex;
+  flex-flow: column nowrap; }
+  .cv-holder .section {
+    display: flex;
+    flex-flow: row nowrap;
+    font-family: 'GT-America-Thin';
+    color: #f5f3f7;
+    letter-spacing: .3px; }
+  .cv-holder .left {
+    flex: 1 1 35%; }
+  .cv-holder .right {
+    flex: 1 1 60%; }
+  .cv-holder .name {
+    font-size: 45px;
+    margin-bottom: 20px; }
+  .cv-holder .heading {
+    font-size: 40px;
+    margin-bottom: 15px; }
+    .cv-holder .heading__list {
+      font-size: 30px;
+      list-style-type: square;
+      list-style-position: outside; }
+      .cv-holder .heading__list--item {
+        margin-bottom: 10px; }
+      .cv-holder .heading__list--subitem {
+        display: inline; }
+      .cv-holder .heading__list--text {
+        font-size: 25px;
+        margin-bottom: 5px; }
+      .cv-holder .heading__list--subtext {
+        font-size: 20px; }
+
+.portrait {
+  max-width: 75%;
+  max-height: 55%;
+  display: block;
+  margin: 25px 15% 25px 10%;
+  box-shadow: 8px 8px 45px 5px #323232; }
+
+.history {
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 25px; }

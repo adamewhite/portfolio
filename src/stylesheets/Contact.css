@@ -1,0 +1,19 @@
+.contact__email {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+  .contact__email p {
+    font-size: 35px;
+    font-family: 'GT-America-Thin';
+    color: #323232;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 8px 10px 28px #323232;
+    z-index: 5; }
+
+.contact__display {
+  position: absolute;
+  top: 12%;
+  right: 5%;
+  box-shadow: 8px 8px 45px 5px #323232;
+  min-width: 70%; }

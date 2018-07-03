@@ -1,0 +1,129 @@
+@font-face{
+  font-family: 'GT-America';
+  src: url('./assets/fonts/GTAmericaExtendedMedium.otf');
+}
+
+@font-face{
+  font-family: 'GT-America-Italic';
+  src: url('./assets/fonts/GTAmericaExtendedRegularItalic.otf');
+}
+
+@font-face{
+  font-family: 'GT-America-Thin';
+  src: url('./assets/fonts/GT-America-Extended-Thin.otf');
+}
+
+/* css reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+input:focus,
+select:focus,
+button:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* fade transition classes */
+
+.fadeTranslate-enter {
+  opacity: 0;
+  /*transform: translate(0, 0);*/
+  transform: rotate(0deg);
+}
+
+.fadeTranslate-enter.fadeTranslate-enter-active {
+  opacity: 1;
+  /*transform: rotate(180deg);*/
+  transition: all 500ms ease-in;
+}
+
+.fadeTranslate-exit {
+  opacity: 1;
+  /*transform: rotate(0deg);*/
+  /*transform: translate(0, 0);*/
+}
+
+.fadeTranslate-exit.fadeTranslate-exit-active {
+  opacity: 0;
+  /*transform: translate(0, 0);*/
+  /*transform: rotate(180deg);*/
+  transition: all 500ms ease-in;
+}
+
+/* global stylings */
+
+html, body {
+	font-family: 'GT-America', Courier;
+	/*z-index: -10;*/
+	/*background: #DFDFDF;*/
+	/*color: white;*/
+	background-image: url('./assets/images/noise.png');
+	background-repeat: repeat;
+	background-attachment: fixed;
+	z-index: -2;
+}
+
+/*#container {
+	position: fixed;
+}*/
+
+.fix-container {
+  position: fixed;
+  margin: 45px 45px 0px 45px;
+  height: calc(100% - 45px);
+  width: calc(100% - 90px);
+  overflow-y: scroll;
+  /*background-color: pink;*/
+  /*padding-bottom: 150px;*/
+}
+

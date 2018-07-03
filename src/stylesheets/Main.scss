@@ -1,0 +1,74 @@
+// .main {
+// 	margin-top: 25px;
+
+
+// 	&__list {
+// 		display: flex;
+// 		flex-flow: column nowrap;
+// 		justify-content: space-between;
+// 		margin-left: 280px;
+
+// 		&--item {
+// 			margin-bottom: 50px;
+// 			font-size: 80px;
+// 			letter-spacing: 1px;
+// 			color: white;
+// 			mix-blend-mode: lighten;
+// 			text-shadow:
+// 			-1px -1px 0 black,
+// 			1px -1px 0 black,
+// 			-1px 1px 0 black,
+// 			1px 1px 0 black;
+// 			opacity: 1;
+// 			transition: all .5s;
+
+// 			p {
+// 				display: inline-block; 
+// 				overflow: hidden;
+// 				color: white;
+// 				mix-blend-mode: lighten;
+// 				// border: 2px solid red;
+// 				line-height: 80px;
+// 				transition: all .5s;
+
+// 				&:hover  {
+// 					cursor: pointer;
+// 					color: black;
+// 					text-shadow:
+// 					-1px -1px 0 chartreuse,
+// 					1px -1px 0 chartreuse,
+// 					-1px 1px 0 chartreuse,
+// 					1px 1px 0 chartreuse;
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+
+// .sidebar {
+// 	position: absolute;
+// 	transform: rotate(-90deg);
+// 	top: 45%;
+
+// 	&__list {
+// 		list-style: none;
+
+// 		&--item {
+// 			display: inline;
+// 			margin-left: 15px;
+// 		}
+
+// 		&--link {
+// 			text-decoration: none;
+// 			color: white;
+// 			cursor: pointer;
+// 			font-family: 'GT-America-Italic';
+// 			font-size: 25px;
+// 		}
+// 	}
+// }
+
+
+
+
+
